@@ -1,0 +1,6 @@
+@EndUserText.label: 'Access Control Literal access'
+@MappingRole: true
+define role ZAC_01_T100049 {
+    grant   select      on
+              ZCDS_26_T100049 where carrid = 'AA'  ;                   
+}

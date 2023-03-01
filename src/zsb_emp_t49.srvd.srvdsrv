@@ -1,0 +1,4 @@
+@EndUserText.label: 'Employee t49'
+define service Zsb_emp_t49 {
+  expose ZCDS_02_e_T100049;
+}
